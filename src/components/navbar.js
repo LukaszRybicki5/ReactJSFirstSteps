@@ -5,9 +5,11 @@ class Navbar extends Component {
     render() { 
         return (
             <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">Navbar</span>
+            <a className="navbar-brand" href="">
+                Navbar <span className="badge badge-pill badge-secondary">
+                </span>
+            </a>
             </nav>
-
           );
     }
 }
